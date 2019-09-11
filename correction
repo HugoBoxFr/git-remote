@@ -1,0 +1,43 @@
+hugo@hugo-ubuntu:~/Desktop/Cours/quetes/git$ git status
+On branch wcs
+Your branch is up-to-date with 'origin/wcs'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+hugo@hugo-ubuntu:~/Desktop/Cours/quetes/git$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+hugo@hugo-ubuntu:~/Desktop/Cours/quetes/git$ git status
+On branch wcs
+Your branch is up-to-date with 'origin/wcs'.
+
+nothing to commit, working tree clean
+hugo@hugo-ubuntu:~/Desktop/Cours/quetes/git$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+hugo@hugo-ubuntu:~/Desktop/Cours/quetes/git$ git pull origin master
+From https://github.com/HugoBoxFr/git-remote
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+hugo@hugo-ubuntu:~/Desktop/Cours/quetes/git$ git merge wcs
+Updating d539d40..c4f9624
+Fast-forward
+ README.md | 2 +-
+ wild.php  | 0
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 wild.php
