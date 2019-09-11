@@ -53,5 +53,15 @@ hugo@hugo-ubuntu:~/Desktop/Cours/quetes/git$ tree
 └── wild.php
 
 0 directories, 2 files
-hugo@hugo-ubuntu:~/Desktop/Cours/quetes/git$ 
+hugo@hugo-ubuntu:~/Desktop/Cours/quetes/git$ git push
+Username for 'https://github.com': HugoBoxFr  
+Password for 'https://HugoBoxFr@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 953 bytes | 953.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/HugoBoxFr/git-remote.git
+   d539d40..c4f9624  master -> master
+hugo@hugo-ubuntu:~/Desktop/Cours/quetes/git$
 
